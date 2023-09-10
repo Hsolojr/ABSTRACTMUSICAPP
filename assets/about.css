@@ -1,0 +1,92 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    background: url("images/pexels-emir-kaan-okutan-2255523.jpg") no-repeat;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    background-color:#da8142;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.text {
+    flex: 1;
+    padding: 20px;
+}
+
+.text p {
+    margin: 0;
+}
+
+.image {
+    flex: 1;
+    padding: 20px;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+header {
+    text-align: center; /* Center-align the content horizontally */
+    background-color: #333;
+    padding: 20px 0;
+}
+/* navigation bar */
+nav {
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center; /* Align navigation to the top middle */
+    align-items: center;
+    position: fixed; /* Fixed positioning to keep it at the top */
+    top: 0; /* Position it at the top of the viewport *//* Add a background color for the navigation bar */
+    z-index: 100; /* Set a higher z-index to keep it above other content */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 20px; /* Adjust the spacing between navigation items */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+}
+
+nav ul li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: orange;
+    position: absolute;
+    left: 50%;
+    bottom: -6px;
+    transition: 0.5s;
+    transform: translateX(-50%);
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
