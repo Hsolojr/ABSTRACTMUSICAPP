@@ -8,6 +8,23 @@ body {
     background: url("images/pexels-emir-kaan-okutan-2255523.jpg") no-repeat;
 }
 
+h1{
+    font-size: 60px;
+    font-weight: bold;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    background: url(images/pexels-skyler-ewing-4596712.jpg);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 30s linear infinite;
+   letter-spacing: 10px;
+}
+
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
+}
 .content {
     display: flex;
     align-items: center;
