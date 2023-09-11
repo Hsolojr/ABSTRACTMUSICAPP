@@ -155,5 +155,32 @@ nav ul li a:hover::after {
 }
 
 
- 
+ /* Style for the footer */
+footer {
+    background-color:rgb(198, 59, 0); /* Background color for the footer */
+    color: #fff; /* Text color */
+    text-align: center;
+    padding: 5px; /* Add some padding to the top and bottom */
+    position: absolute; /* Position the footer at the bottom of the page */
+    width: 100%; /* Full width */
+    bottom: 0; /* Stick to the bottom */
+}
+
+/* Style for the footer content */
+.footer-content {
+    animation: slide-up 1s ease-in-out; /* Apply animation */
+}
+
+/* Keyframes for the slide-up animation */
+@keyframes slide-up {
+    0% {
+        transform: translateY(50px); /* Start below the screen */
+        opacity: 0; /* Start invisible */
+    }
+    100% {
+        transform: translateY(0); /* Move up to its original position */
+        opacity: 1; /* Fade in */
+    }
+}
+
   
