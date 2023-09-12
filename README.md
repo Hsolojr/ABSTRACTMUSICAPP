@@ -28,7 +28,7 @@ This application is open-source and free to use. There are no specific licenses 
 
 ## Try It Out
 
-https://hsolojr.github.io/APIMusicApp/
+https://hsolojr.github.io/ABSTRACTMUSICAPP/
 
 Enjoy exploring and discovering new music with the Music Search Application!
 
